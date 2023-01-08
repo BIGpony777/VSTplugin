@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vstgui-ui-description version="1">
+	<template name="view" origin="0,0" size="1600, 360" background-color="#333333">
+		
+		<view class="CTextLabel" title="OSC 1" back-color="~ TransparentCColor" frame-color="~ TransparentCColor" font-color="~ GreyCColor" size="90,90" origin="0,40"/>
+		<view class="CKnob" control-tag="OSC1" corona-color="~ GreyCColor" shadow-color="~ WhiteCColor" origin="100,40" size="90,90"/>
+		<view class="CKnob" control-tag="PIT1" corona-color="~ GreyCColor" shadow-color="~ WhiteCColor" wheel-inc-value="8.3333" origin="200,40" size="45,45"/>
+		
+		<view class="CTextLabel" title="OSC 2" back-color="~ TransparentCColor" frame-color="~ TransparentCColor" font-color="~ GreyCColor" size="90,90" origin="0,140"/>
+		<view class="CKnob" control-tag="OSC2" corona-color="~ GreyCColor" shadow-color="~ WhiteCColor" origin="100,140" size="90,90"/>
+		<view class="CKnob" control-tag="PIT2" corona-color="~ GreyCColor" shadow-color="~ WhiteCColor" wheel-inc-value="8.3333" origin="200,140" size="45,45"/>
+		
+		<view class="CTextLabel" title="OSC 3" back-color="~ TransparentCColor" frame-color="~ TransparentCColor" font-color="~ GreyCColor" size="90,90" origin="0,240"/>
+		<view class="CKnob" control-tag="OSC3" corona-color="~ GreyCColor" shadow-color="~ WhiteCColor" origin="100,240" size="90,90"/>
+		<view class="CKnob" control-tag="PIT3" corona-color="~ GreyCColor" shadow-color="~ WhiteCColor" wheel-inc-value="8.3333" origin="200,240" size="45,45"/>
+		
+		
+		<view class="CSlider" control-tag="SLIDE1" orientation="vertical" reverse-orientation="false" zoom-factor="1" draw-frame="true" draw-value="true" draw-frame-color="~ WhiteCColor" draw-value-color="~ GreyCColor" origin="1000,110" size="20,150"/>
+		
+	</template>
+
+	<control-tags>
+		<control-tag name="OSC1" tag="100"/>
+		<control-tag name="OSC2" tag="101"/>
+		<control-tag name="OSC3" tag="102"/>
+		<control-tag name="SLIDE1" tag="103"/>
+		<control-tag name="PIT1" tag="104"/>
+		<control-tag name="PIT2" tag="105"/>
+		<control-tag name="PIT3" tag="106"/>
+	</control-tags>
+	<fonts>
+	</fonts>
+	<colors>
+	</colors>
+	
+</vstgui-ui-description>
